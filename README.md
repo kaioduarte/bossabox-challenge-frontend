@@ -3,11 +3,11 @@
 ## Tecnologias
 
 - React
-- Reactstrap
-- Styled Components :lipstick:
+- [Reactstrap](https://github.com/reactstrap/reactstrap)
+- [Styled Components](https://github.com/styled-components/styled-components) :lipstick:
 - Eslint (Standard + Prettier) :triangular_ruler:
-- Testes funcionais com react-testing-library
-- Webpack Bundle Analyzer
+- Testes funcionais com [react-testing-library](https://github.com/testing-library/react-testing-library)
+- [Webpack Bundle Analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer)
 
 ## Organização de pastas
 
@@ -28,5 +28,5 @@
 
 Visando diminuir o tamanho da aplicação final e entregar uma melhor experiência para o cliente, utilizar uma biblioteca com tamanho menor (~3KB) que tem compatibilidade com a API do React agregará bastante neste objetivo.
 
-Os valores entre parênteses representam a diferença com o uso do Preact.
+Os valores entre parênteses representam a diferença sem o uso do Preact.
 ![Sem Preact](readme-assets/wo-preact.png)
