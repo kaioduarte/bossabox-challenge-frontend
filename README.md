@@ -28,4 +28,5 @@
 
 Visando diminuir o tamanho da aplicação final e entregar uma melhor experiência para o cliente, utilizar uma biblioteca com tamanho menor (~3KB) que tem compatibilidade com a API do React agregará bastante neste objetivo.
 
-- [Sem Preact](readme-assets/wo-preact.png), os valores em parênteses representam a diferença com o uso do Preact.
+Os valores entre parênteses representam a diferença com o uso do Preact.
+![Sem Preact](readme-assets/wo-preact.png)
