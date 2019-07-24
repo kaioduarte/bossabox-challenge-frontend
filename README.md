@@ -1,68 +1,31 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Vuttr
 
-## Available Scripts
+## Tecnologias
 
-In the project directory, you can run:
+- React
+- Reactstrap
+- Styled Components :lipstick:
+- Eslint (Standard + Prettier) :triangular_ruler:
+- Testes funcionais com react-testing-library
+- Webpack Bundle Analyzer
 
-### `npm start`
+## Organização de pastas
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- `src/`: Raíz do projeto
+- `src/components/`: Pasta com os componentes compartilhados em toda a aplicação
+- `src/__tests__`: Pasta com os testes funcionais
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Como executar
 
-### `npm test`
+- Baixar dependências: `npm install` ou `yarn`
+- Definir a URL base da API no arquivo `.env`
+- Para executar em modo de desenvolvimento: `npm start` ou `yarn start`
+- Para gerar o bundle de produção: `npm build` ou `yarn build`
+- Para executar os testes: `npm run test` ou `yarn test`
+- Para criar visualização do bundle de produção com webpack-bundle-analyzer: `npm run analyze` ou `yarn analyze`
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Bundle de produção com Preact :fire:
 
-### `npm run build`
+Visando diminuir o tamanho da aplicação final e entregar uma melhor experiência para o cliente, utilizar uma biblioteca com tamanho menor (~3KB) que tem compatibilidade com a API do React agregará bastante neste objetivo.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- [Sem Preact](readme-assets/wo-preact.png), os valores em parênteses representam a diferença com o uso do Preact.
